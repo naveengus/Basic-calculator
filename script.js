@@ -6,12 +6,12 @@ function inputNum(d) {
   updateScreen();
 }
 
-function inputdot() {
-  if (!screenValue.includes(".")) {
-    screenValue = screenValue + ".";
-  }
-  updateScreen();
-}
+// function inputdot() {
+//   if (!screenValue.includes(".")) {
+//     screenValue = screenValue + ".";
+//   }
+//   updateScreen();
+// }
 
 function clearEnter() {
   screenValue = screenValue.slice(0, -1);
