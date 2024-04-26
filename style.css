@@ -6,6 +6,7 @@
 body {
   display: flex;
   justify-content: center;
+  background-color: rgba(204, 199, 199, 0.8);
 }
 
 .fullbox {
