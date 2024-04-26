@@ -22,6 +22,11 @@ function allClear() {
   updateScreen();
 }
 
+function percentage() {
+  screenValue = (screenValue / 100).toFixed(8);
+  updateScreen();
+}
+
 function equalval() {
   screenValue = eval(screenValue);
   updateScreen();
